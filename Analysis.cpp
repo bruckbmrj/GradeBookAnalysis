@@ -34,7 +34,7 @@ void Analysis::processExamResults()
     } //fim do while
 
     //fase de terminação; exibe numero de aprovados e reprovados
-    cout<< "Passed" << passes << "\nFailed" << failures << endl;
+    cout<< "\nPassed " << passes << "\nFailed " << failures << endl;
 
     //determina se mais de oito alunos passaram
     if (passes > 8)
